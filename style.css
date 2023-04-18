@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(240, 238, 238);
+    width: 434px;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 72px;
+}
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 15px;
+    padding: 39px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.main{
+    /*background-color: rgb(191, 212, 147);*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /*background-color: maroon;*/
+    height: 55vh;
+    width:80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Kanit', sans-serif;
+}
+.Hello{
+ font-size: 50px;
+}
+.about{
+    font-size: 45px;
+}
+.name{
+    font-size: 64px;
+}
+.moreabout{
+    font-size: 29px;
+    margin-top: 23px;
+}
+
+.devPic img{
+    width: 295px;
+    height: 55vh;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 25px;
+    margin: 12px 0;
+}
+.btn:hover{
+    background-color: white;
+    color:dodgerblue
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Kanit', sans-serif ;
+}
+.contactform h1{
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction:column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;;
+}
+#emailHelp{
+    font-size: 15px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogItem{
+    margin: 20px;
+    font-family: 'Kanit', sans-serif ;
+}
+ h1{
+    font-family: 'Kanit', sans-serif ;
+    margin: 23px;
+}
+ p{
+    font-family: 'Inconsolata', monospace;
+}
+.intro h2{
+    font-family: 'Kanit', sans-serif ;
+    margin: 13px;
+}
+.intro p{
+    font-family: 'Inconsolata', monospace;
+    margin: 13px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    height: 13px;
+    width: 288px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundred{
+    width: 288px;
+    background-color: solid blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: yellowgreen;
+}
